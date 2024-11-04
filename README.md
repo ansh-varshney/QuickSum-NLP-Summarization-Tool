@@ -1,4 +1,5 @@
-#QuickSum - Summarize Your Text Like a Boss!
+**QuickSum - Summarize Your Text Like a Boss!**
+
 QuikSum is a web application that provides quick and efficient text summarization using both extractive and abstractive methods. It supports multiple languages and includes sentiment analysis to give you deeper insights into your text. With a user-friendly interface, QuickSum makes it easy to summarize articles, documents, or any text input like a boss!
 🚀 Features
 •	Extractive Summarization: Condenses text by extracting the most important sentences.
