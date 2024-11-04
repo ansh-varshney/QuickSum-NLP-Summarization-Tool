@@ -21,7 +21,7 @@ QuickSum is a web application that provides quick and efficient text summarizati
 
 ### Steps
 
-1. **Clone the Repository**
+1. **Clone the Repository**: `git clone https://github.com/ansh-varshney/QuickSum-NLP-Summarization-Tool.git`
 2. **Create and Activate a Virtual Environment**
 3. **Install Dependencies**: `pip install -r requirements.txt`
 4. **Download NLTK Data**
@@ -31,9 +31,7 @@ QuickSum is a web application that provides quick and efficient text summarizati
 ## 📄 Usage
 
 1. **Enter Text**
-
-   Paste or type the text you want to summarize into the input field.
-
+   
 2. **Select Summarization Technique**
 
    - **Extractive**: Selects key sentences from the text.
