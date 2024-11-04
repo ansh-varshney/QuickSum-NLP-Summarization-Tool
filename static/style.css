@@ -1,0 +1,76 @@
+/* static/styles.css */
+
+/* Set a soothing background color */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #1e65ac; /* Light grey-blue background */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    margin-bottom: 60px; /* Adjust based on footer height */
+}
+
+/* Style the navbar */
+.navbar {
+    background-color: #2378ce; /* Dark blue */
+}
+
+/* Customize the navbar brand */
+.navbar-brand {
+    font-size: 1.5rem; /* Increase font size */
+    font-weight: bold; /* Make text bold */
+}
+
+/* Center the navbar brand */
+.navbar .container-fluid {
+    justify-content: center;
+}
+
+/* Style the container */
+.container {
+    background-color: #ffffff; /* White background for contrast */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Add spacing from the navbar */
+}
+
+/* Style the footer */
+footer {
+    background-color: #343a40;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Style the summary and sentiment text areas */
+#summary-text,
+#sentiment-text {
+    white-space: pre-wrap;
+    background-color: #f8f9fa;
+}
+
+/* Customize the submit button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+/* Loader styling */
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey */
+    border-top: 8px solid #007bff; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
